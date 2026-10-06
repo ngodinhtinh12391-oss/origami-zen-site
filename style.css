@@ -1,0 +1,5 @@
+:root{--bg:#F6F1E7;--ink:#283B36;--soft:#5C6B66;--accent:#397D73}
+@media (prefers-color-scheme:dark){:root{--bg:#1E2928;--ink:#F2EEE5;--soft:#AAB6B1;--accent:#8BC7B2}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "Source Serif 4",Georgia,serif}
+main{max-width:680px;margin:0 auto;padding:48px 20px 64px}h1{font-size:34px;line-height:1.15;margin:0 0 6px}h2{font-size:20px;margin:32px 0 6px}
+p,li{color:var(--ink)}.meta{color:var(--soft);font-style:italic;margin:0 0 28px}a{color:var(--accent)}nav{margin-bottom:28px}nav a{margin-right:18px}
